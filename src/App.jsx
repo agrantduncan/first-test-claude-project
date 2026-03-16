@@ -6,6 +6,7 @@ import Cases from './pages/Cases'
 import Clients from './pages/Clients'
 import Documents from './pages/Documents'
 import Billing from './pages/Billing'
+import Settings from './pages/Settings'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/clients" element={<Clients />} />
             <Route path="/documents" element={<Documents />} />
             <Route path="/billing" element={<Billing />} />
+          <Route path="/settings" element={<Settings />} />
           </Routes>
         </main>
       </div>
